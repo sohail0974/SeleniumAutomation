@@ -1,0 +1,71 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+.eclipse/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+logs/
+reports/
+screenshots/
+test-output/
+.classpath
+.project
+.settings/
+
+# Selenium/WebDriver
+driver/
+drivers/
+webdriver/
+*.log
+
+# Build outputs
+bin/
+out/
+build/
+dist/
+*.class
+*.jar
+*.exe
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node (if using any npm dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+*.zip
+*.rar
+*.7z
+.temp/
+*.backup

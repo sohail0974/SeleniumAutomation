@@ -1,0 +1,44 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Java files
+*.java text eol=lf
+*.class binary
+
+# Maven
+pom.xml text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Windows batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# XML files
+*.xml text eol=lf
+
+# Properties files
+*.properties text eol=lf
+
+# JSON
+*.json text eol=lf
+
+# YAML
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.jar binary
+*.class binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
