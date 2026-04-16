@@ -17,7 +17,7 @@ public class SignUp extends BaseClass {
 	public void Sign_up() {
 		logger.info("***Starting Sign up execution***");
 		HomePage hp = new HomePage(driver);
-		hp.clickSignUp();
+		hp.clickSignUpandLogin();
 		User_Signup usp = new User_Signup(driver);
 		usp.setUserName(randomString());
 		usp.setEmailData(randomString()+"@gmail.com");

@@ -12,9 +12,13 @@ public class HomePage extends BasePage{
 	}
 	
 	@FindBy(xpath="//a[normalize-space()='Signup / Login']")
-	WebElement signUp;
-	
-	public void clickSignUp() {
-		signUp.click();
+	WebElement signUporLogin;
+	@FindBy(xpath="//a[normalize-space()='Delete Account']")
+	WebElement DeleteAccount;
+	public void clickSignUpandLogin() {
+		signUporLogin.click();
+	}
+	public boolean verifyAccountLogged() {
+		return DeleteAccount.isDisplayed();
 	}
 }

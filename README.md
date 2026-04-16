@@ -1,6 +1,6 @@
-# OpenCart Automation - Selenium Testing
+# Selenium Testing
 
-This is a Selenium-based test automation project for OpenCart application.
+This is a Selenium-based test automation project for AutomationExercise application.
 
 ## Project Structure
 
