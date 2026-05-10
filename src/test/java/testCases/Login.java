@@ -7,7 +7,7 @@ import pageObjects.HomePage;
 import pageObjects.Login_info;
 import testBase.BaseClass;
 public class Login extends BaseClass {
-	@Test
+	@Test(groups = {"Sanity","Master"})
 	public void logIn() {
 		HomePage hp = new HomePage(driver);
 		hp.clickSignUpandLogin();

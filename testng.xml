@@ -4,8 +4,9 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="edge"></parameter>
     <classes>
-    	<class name ="testCases.Login"/>
-      	<!-- <class name="testCases.SignUp"/> -->
+    	<class name ="testCases.Login"/> 
+      	<class name="testCases.SignUp"/> 
+      	<!-- <class name="testCases.DDT_Login"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

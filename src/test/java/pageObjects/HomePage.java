@@ -15,10 +15,15 @@ public class HomePage extends BasePage{
 	WebElement signUporLogin;
 	@FindBy(xpath="//a[normalize-space()='Delete Account']")
 	WebElement DeleteAccount;
+	@FindBy(xpath ="//a[normalize-space()='Logout']")
+	WebElement Logout;
 	public void clickSignUpandLogin() {
 		signUporLogin.click();
 	}
 	public boolean verifyAccountLogged() {
 		return DeleteAccount.isDisplayed();
+	}
+	public void logoutAccount() {
+		Logout.click();
 	}
 }

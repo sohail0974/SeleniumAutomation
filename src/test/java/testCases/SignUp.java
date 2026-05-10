@@ -13,7 +13,7 @@ import testBase.BaseClass;
 
 public class SignUp extends BaseClass {
 	
-	@Test
+	@Test(groups = {"Regression","Master"})
 	public void Sign_up() {
 		logger.info("***Starting Sign up execution***");
 		HomePage hp = new HomePage(driver);

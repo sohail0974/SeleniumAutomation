@@ -14,6 +14,8 @@ public class Login_info extends BasePage {
 	WebElement txtpassword;
 	@FindBy(xpath="//button[normalize-space()='Login']")
 	WebElement btnLogin;
+	@FindBy(xpath="//p[normalize-space()='Your email or password is incorrect!']")
+	WebElement authtext;
 	public void inputEmail(String email) {
 		txtemail.sendKeys(email);
 	}
@@ -22,5 +24,8 @@ public class Login_info extends BasePage {
 	}
 	public void clickLogin() {
 		btnLogin.click();
+	}
+	public boolean incorrectDetails() {
+		return authtext.isDisplayed();
 	}
 }

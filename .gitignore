@@ -10,43 +10,25 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-# IDEs
+# IDE
 .idea/
-.eclipse/
-.vscode/
-*.swp
-*.swo
-*~
-.DS_Store
 *.iml
 *.iws
-*.ipr
-*.sublime-project
-*.sublime-workspace
+.classpath
+.project
+.settings/
+.DS_Store
 
-# Project specific
+# Logs and Reports
 logs/
 reports/
 screenshots/
 test-output/
-.classpath
-.project
-.settings/
-
-# Selenium/WebDriver
-driver/
-drivers/
-webdriver/
 *.log
+ScreenshotslogIn_*
 
-# Build outputs
-bin/
-out/
-build/
-dist/
-*.class
-*.jar
-*.exe
+# Local files
+/testdata/userdata.xlsx
 
 # OS specific
 Thumbs.db

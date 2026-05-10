@@ -1,6 +1,14 @@
 # Selenium Testing
 
-This is a Selenium-based test automation project for AutomationExercise application.
+This is a Selenium-based test automation project for the AutomationExercise application, designed using the Page Object Model (POM) with TestNG.
+
+## Key Features
+
+- **Data-Driven Testing**: Implemented for login functionality using TestNG's `DataProvider` and external data sources.
+- **Cross-Browser Execution**: Supports running tests across multiple browsers like Chrome, Firefox, and Edge.
+- **Test Grouping**: Organizes test cases into logical groups (e.g., Sanity, Regression) for flexible test execution.
+- **Advanced Reporting**: Generates detailed Extent Reports for clear and concise test results visualization.
+- **Page Object Model (POM)**: Ensures maintainable and scalable test code by separating UI logic from test cases.
 
 ## Project Structure
 
@@ -63,6 +71,11 @@ Run specific test class:
 mvn test -Dtest=SignUp
 ```
 
+Run specific test groups:
+```bash
+mvn test -Dgroups=Sanity
+```
+
 Run with specific TestNG configuration:
 ```bash
 mvn test -Dtestng.xml=testng.xml
@@ -71,11 +84,12 @@ mvn test -Dtestng.xml=testng.xml
 ## Test Reports
 
 After running tests, reports are generated in:
-- `test-output/` - TestNG HTML reports
+- `reports/` - Detailed Extent HTML reports
+- `test-output/` - Default TestNG HTML reports
 - `logs/` - Application logs
 - `screenshots/` - Failure screenshots
 
-Open `test-output/index.html` to view the detailed test report.
+Open `reports/index.html` to view the detailed Extent report.
 
 ## Page Objects Included
 
